@@ -472,8 +472,38 @@ main h1 {
     gap: 20px;
 }
 
+.second_row .img1{
+    width: auto;
+    height: 20vh;
+    border-radius: 50%;
+     
+
+    
+}
+
 .second_row img{
-    width: 50%;
+    width: auto;
+    height: 20vh;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: grid;
+    gap: 20px;
+   
+
+}
+
+.second_row img:hover{
     height: auto;
     border-radius: 50%;
+    transform: scale(1.010);
+    transition: transform 0.10s;
+    animation-name: photozone;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+@keyframes photozone{
+    25%{
+        transform: scale(1,2,1.2);
+    }
 }
