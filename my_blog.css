@@ -477,6 +477,7 @@ main h1 {
     align-items: center;
     gap: 20px;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .img1{
@@ -507,6 +508,7 @@ main h1 {
     align-items: left;
     gap: 20px;
     flex-direction: row;
+    overflow: hidden;
 }
 
  .img2 img{
@@ -544,4 +546,86 @@ main h1 {
     25%{
         transform: scale(1,2,1.2);
     }
+}
+
+.title{
+    height: auto;
+    border: 1px solid #02579a;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg');
+    height: 10vh;
+
+}
+
+.title h1{
+    
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.contain{
+    padding: 10px;
+    display: flex;
+    gap: 20px;  
+    background-color: rgb(241, 238, 232);
+    width: 100%;
+}
+    
+
+.leftcontain{
+    color: black;
+    text-align: center;
+    width: 20%;
+    border: 1px solid black;
+}
+
+
+.rightcontain{
+    color: black;
+    text-align: justify;
+    width: 80%;
+}
+
+.rightcontain h1{
+    text-align: left;
+    color: #005695;
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: lightblue;
+    color: #fff;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px 15px;
+}
+
+th {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e6ffe6;
+}
+
+td {
+    font-size: 14px;
 }
